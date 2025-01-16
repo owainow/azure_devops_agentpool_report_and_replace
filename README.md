@@ -3,7 +3,9 @@ A repository containing a bash script that loops through your Azure DevOps proje
 
 ## Getting Started
 
-The only prerequisite for this repository is a PAT with permissions to view (or modify) projects, repositories and pipelines. For the --dry-run mode read access is required. For replacement read & write access is required.
+The only prerequisite for this repository is a PAT with permissions to view (or modify) projects, repositories and pipelines. For the --dry-run mode read access is required. For replacement read & write access is required. 
+
+Please make a note of your PAT once you create it as it will not be shared again and is required for each run of the tool. 
 
 The tool is written as a bash script which looks for particular agent pools within YAML files in repos and cross-references their values with the agent pool values defined in the agent pool map:
 This agent pool can be used to map self-hosted agent pools found under pool: name: or under pool: vm Image:.

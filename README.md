@@ -23,11 +23,12 @@ The following argument is available:
 As the tool requires evaluating the pipeline YAML files itself all repositories are cloned onto the machine running the tool and removed after the report is generated. For larger organisations this can take some time to complete.
 
 1. Clone the repository
-2. Run
+2. Update the ORG_URL variable with your organisation url e.g. ORG_URL="https://dev.azure.com/owainow"
+3. Run
  ``` . Agentpool_report_and_change.sh --dry-run```
 
-3. Authenticate with either PAT or Interactive Login
-4. Review CSV output
+4. Authenticate with either PAT or Interactive Login
+5. Review CSV output
 
 If you are happy with the changes then you can rerun the tool without the dry run option.
 

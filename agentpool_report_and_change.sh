@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Set Azure DevOps organization
-ORG_URL="Your Devops Org URL"
+ORG_URL="<Your ORG_URL>"
 
 # Define whether this is a dry run
 DRY_RUN=false
@@ -13,7 +13,7 @@ else
 fi
 
 # Log in to Azure DevOps with PAT through terminal
-az devops configure --defaults organization=$ORG_URL
+az devops configure --defaults organization=https://dev.azure.com/owainow
 az devops login
 
 

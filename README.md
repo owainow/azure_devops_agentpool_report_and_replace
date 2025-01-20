@@ -55,4 +55,4 @@ An example output of the CSV file for two runs is below:
 | NORMAL_RUN | ado-pipelines | microservice-authentication-oauth2-aks | azure-pipelines.yml | Azure Pipelines | test | 89a3a6f | 2025-01-16 10:29:32 +0000 | |
 
 ## Contributing
-Feel free to fork and create pull requests with any improvements or features you have added. Please ensure any feature additions are used through an arguement e.g. --dry-run. 
+Feel free to fork and create pull requests with any improvements or features you have added. Please ensure any feature additions are used through an argument  e.g. --dry-run. 
